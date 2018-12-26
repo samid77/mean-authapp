@@ -1,0 +1,11 @@
+{
+  "name": "mean-authapp",
+  "version": "1.0.0",
+  "description": "A simple auth app experiment using angular, mongodb, and jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimas Septyanto",
+  "license": "MIT"
+}
