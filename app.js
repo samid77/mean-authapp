@@ -37,6 +37,8 @@ app.use('/users', users);
 app.use(passport.initialize());
 app.use(passport.session());
 
+require('./config/passport')(passport);
+
 /** Index Route */
 app.get('/', (req, res) => {
     res.send('Invalid endpoint');
