@@ -33,6 +33,10 @@ app.use(express.static(path.join(__dirname, 'client')));
 app.use(bodyParser.json());
 app.use('/users', users);
 
+/** Passport middleware */
+app.use(passport.initialize());
+app.use(passport.session());
+
 /** Index Route */
 app.get('/', (req, res) => {
     res.send('Invalid endpoint');
