@@ -2,9 +2,21 @@
   "name": "mean-authapp",
   "version": "1.0.0",
   "description": "A simple auth app experiment using angular, mongodb, and jwt",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.18.9",
+    "passport": "*",
+    "passport-jwt": "*"
   },
   "author": "Dimas Septyanto",
   "license": "MIT"
